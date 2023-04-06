@@ -28,7 +28,7 @@ function App() {
       <h1>ChatGPT App</h1>
       <form onSubmit={handleSubmit}>
         <input
-          type="text"
+          type="textarea"
           value={userMessage}
           onChange={(e) => setUserMessage(e.target.value)}
           placeholder="Enter your message"
